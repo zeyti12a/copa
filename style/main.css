@@ -1,0 +1,11 @@
+.card{
+    background: var(--card-bg-color);
+    width: 19.75rem;
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.card img{
+    width: 3.125rem;
+}
