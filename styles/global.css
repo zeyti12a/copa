@@ -3,25 +3,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    
 }
 
-body {
+body{
     background: var(--bg-color) url(../assets/bg.svg)  no-repeat top  center;
     padding-block: 3.25rem;
- 
-}
+} 
 header{
     display: flex;
     justify-content: center;
     margin-bottom: 4rem;
-} 
+}
 
 main{
     width: fit-content;
     margin-inline: auto;
-
-} 
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
 h2{
     color: var(--card-color-primary );
     border: 1px solid var(--card-title-border-color);
